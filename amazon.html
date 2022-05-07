@@ -1,0 +1,36 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="amazon.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@800&family=Poppins:wght@400;500;600&display=swap");
+    </style>
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <p>Sign-In</p>
+      </div>
+      <form
+        action="http://localhost/php_programs/mark1.php"
+        class="form"
+        method="post"
+      >
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" />
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" />
+        <button type="submit" class="submit">Sign-In</button>
+      </form>
+      <div class="footer">
+        <div>
+          By continuing, you agree to Amazon's Conditions of Use and Privacy
+          Notice.
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
